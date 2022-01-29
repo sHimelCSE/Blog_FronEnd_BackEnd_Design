@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header row">
+                <div class="col-12">
+                    <div style="margin-right: 20px; float: left;">
+                        <img class="admin-logo" src="img/logo.png" alt="home-logo" />
+                    </div>
+                    <div style="margin-top: 10px; float: left;">
+                        <span class="admin-header">Admin Panel</span>
+                    </div>
+                    <div style="margin: 22px 5px 0 0; float: right;">
+                        <span class="fas fa-user fa-md" style="color: rgb(190, 184, 184);"></span>
+                        <span style="color: rgb(253, 253, 253);">Hello Admin</span><span> | </span>
+                        <a href="">Config</a><span> | </span>
+                        <a href="">logout</a>
+                    </div>
+                     
+                </div>
+            </div>
+            <div class="menu row">
+                <div class="inner_menu">
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i>Dashboard</a></li>
+                        <li><a href=""><i class="fas fa-image"></i>Theme</a></li>
+                        <li><a href=""><i class="fas fa-user"></i>User Profile</a></li>
+                        <li><a href="changePassword.html"><i class="fas fa-key"></i>Change Password</a></li>
+                        <li><a href="inbox.html"><i class="fas fa-inbox"></i>inbox(2)</a></li>
+                        <li><a href=""><i class="fas fa-plus"></i>Add User</a></li>
+                        <li><a href=""><i class="fas fa-list"></i>User List</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dashboard row">
+                <div class="sidebar-menu col-2" id="sidebar-menu">
+                    <ul>
+                        <li> <a>Site Option</a>
+                            <ul>
+                                <li><a href="titleSlogan.html">Title</a></li>
+                                <li><a href="social.html">Social</a></li>
+                                <li><a href="copyright.html">Copyright</a></li>
+                            </ul>
+                        </li>
+                        <li> <a>Update Page</a>
+                            <ul>
+                                <li><a href="">Pages List</a></li>
+                                <li><a href="">Edit Page</a></li>
+                                <li><a href="">Create Page</a></li>
+                            </ul>
+                        </li>
+                        <li style="background-color: rgb(199, 226, 236);"> <a>Category Option</a>
+                            <ul style="display: block;">
+                                <li><a href="addcat.html" style="background-color: rgb(56, 64, 65); color: #ffffff;">Create Category</a></li>
+                                <li><a href="">Edit Category</a></li>
+                                <li><a href="catlist.html">Category List</a></li>
+                            </ul>
+                        </li>
+                        <li> <a>Post Option</a>
+                            <ul>
+                                <li><a href="addpost.html">Create Post</a></li>
+                                <li><a href="">Edit Post</a></li>
+                                <li><a href="postList.html">Posts List</a></li>
+                            </ul>
+                        </li>
+                        <li> <a>Slider Option</a>
+                            <ul>
+                                <li><a href="">Add Image</a></li>
+                                <li><a href="">Edit/Delete Image</a></li>
+                                <li><a href="">Image List</a></li>
+                            </ul>
+                        </li>
+                        <li> <a>Others</a>
+                            <ul>
+                                <li><a href="">Sample One</a></li>
+                                <li><a href="">Sample Two</a></li>
+                                <li><a href="">Sample Three</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-body col-10" id="content-body">
+                    <div class="content-area">
+                        <div class="content-head row"><span>Create New Category</span></div>
+                        <div class="content">
+                            <div class="inner_content">
+                                <form action="" method="post" enctype="multipart/form-data">
+                                    <div class="input_label">
+                                        <label for="addcategory">Add Category: </label>
+                                        <input type="text" name="addcategory" id="" placeholder="Enter Category Name...">
+                                    </div>
+                                    <div class="input_label">
+                                        <label for=""></label>
+                                        <input type="submit" value="Save" name="btn">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <p>&copy;copyright Myblog.com || Developed by Md.Shahiduzzaman Himel</p>
+        </div>
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
